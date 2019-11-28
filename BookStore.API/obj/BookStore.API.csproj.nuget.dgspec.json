@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj": {}
+    "D:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj": {
+    "D:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj",
+        "projectUniqueName": "D:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj",
         "projectName": "BookStore.API",
-        "projectPath": "d:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj",
+        "projectPath": "D:\\Projects\\BookStore\\BookStore.API\\BookStore.API.csproj",
         "packagesPath": "C:\\Users\\COmp\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\BookStore\\BookStore.API\\obj\\",
+        "outputPath": "D:\\Projects\\BookStore\\BookStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -52,7 +52,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

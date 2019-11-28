@@ -1,0 +1,14 @@
+D:\Projects\BookStore\BookStore.API\bin\Debug\netcoreapp2.2\BookStore.API.deps.json
+D:\Projects\BookStore\BookStore.API\bin\Debug\netcoreapp2.2\BookStore.API.runtimeconfig.json
+D:\Projects\BookStore\BookStore.API\bin\Debug\netcoreapp2.2\BookStore.API.runtimeconfig.dev.json
+D:\Projects\BookStore\BookStore.API\bin\Debug\netcoreapp2.2\BookStore.API.dll
+D:\Projects\BookStore\BookStore.API\bin\Debug\netcoreapp2.2\BookStore.API.pdb
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.csprojAssemblyReference.cache
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.csproj.CoreCompileInputs.cache
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.RazorAssemblyInfo.cache
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.RazorAssemblyInfo.cs
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.AssemblyInfoInputs.cache
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.AssemblyInfo.cs
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.RazorTargetAssemblyInfo.cache
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.dll
+D:\Projects\BookStore\BookStore.API\obj\Debug\netcoreapp2.2\BookStore.API.pdb
