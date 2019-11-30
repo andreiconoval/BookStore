@@ -27,15 +27,15 @@ namespace BookStore.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegistration userForRegistration)
         {
-            userForRegistration.username = userForRegistration.username.ToLower();
-            if (await _repo.UserExists(userForRegistration.username)) return BadRequest("Username already exists");
+            userForRegistration.Username = userForRegistration.Username.ToLower();
+            if (await _repo.UserExists(userForRegistration.Username)) return BadRequest("Username already exists");
 
             var userToCreate = new User
             {
-                Username = userForRegistration.username
+                Username = userForRegistration.Username
             };
 
-            var createdUser = await _repo.Register(userToCreate, userForRegistration.password);
+            var createdUser = await _repo.Register(userToCreate, userForRegistration.Password);
 
             return StatusCode(201);
         }
