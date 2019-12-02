@@ -1,0 +1,43 @@
+<button class="btn btn-primary btn-md" routerLink="/book">Add Book</button>
+<br>
+
+<select class="custom-select d-block w-100" [ngModel]="selectedBook"  name= "sele" (change)="changeBook($event)">
+    <option *ngFor="let book of bookList; let i =  index" [ngValue]="book">{{book.name}}</option>
+  </select>
+  <br>
+<div class="card mt-4">
+    <div class="card-header">
+        Books
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Authors</th>
+                    <th scope="col">Genres</th>
+                    <th scope="col">Price</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr *ngFor="let book of bookList">
+                    <td style="width:  15%"> 
+                        <button class="btn btn-success">
+                            <fa name="shopping-cart" size="1x"></fa>
+                        </button>
+                        <button class="btn btn-success ml-3" [routerLink]="['/book', book.id]">
+                            <fa name="info-circle" size="1x"></fa>
+                        </button>
+                    </td>
+                    <td>{{book.name}}</td>
+                    <td>{{book.author}}</td>
+                    <td>{{book.genres}}</td>
+                    <td>{{book.price}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

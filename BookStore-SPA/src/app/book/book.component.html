@@ -1,0 +1,39 @@
+<a  (click) ="GoBack()" >
+    <fa name="arrow-left" size= "1x"></fa>Go Back
+  </a>
+  <br>
+
+<h4 class="mb-3">Add new Book</h4>
+<form class="needs-validation" #bookForm="ngForm" (ngSubmit)="AddOrUpdate()">
+  <div class="row  ">
+    <div class="col-md-3 mb-3">
+        <img src="assets/book_img.png" alt="..." class="img-thumbnail">
+        <br>
+        <button class="btn btn-primary btn-lg btn-block mt-4" type="submit">Add Image</button>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="cc-name">Book name</label>
+      <input type="text" class="form-control" name="name" placeholder="Name" required [(ngModel)]="book.name">
+      <br>
+      <label for="cc-number">Author</label>
+      <input type="text" class="form-control" name="author" placeholder="Author" required [(ngModel)]="book.author">
+      <br>
+      <label for="cc-number">Genres</label>
+      <input type="text" class="form-control" name="genres" placeholder="Genres" required [(ngModel)]="book.genres">
+      <br>
+      <label for="cc-number">Price</label>
+      <input type="number" class="form-control" name="price" placeholder="Price" required [(ngModel)]="book.price">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-7 mb-2 ">
+      <hr class="mb-4">
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-success btn-lg " type="submit" >Save</button>
+        <button class="btn btn-danger btn-lg ml-5 " type="submit">Cancel</button></div>
+    </div>
+
+  </div>
+
+</form>
